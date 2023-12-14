@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #014E56;
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger-menu {
+    height: 17px;
+}
+
+.burger {
+    position: relative;
+    background-image: url("./Group\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 28px;
+    height: 17px;
+    background-color: transparent;
+    border: none;
+}
+
+.nav-list {
+    display: none;
+    /* display: flex; */
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-item a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    text-decoration: none;
+}
+
+.intro {
+    padding-top: 40px;
+    padding-bottom: 108px;
+    background-color: #014E56;
+}
+
+
+
+.burger-btn {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    background: transparent;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    padding: 9px 32px;
+    transition: 0.3s
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 100% */
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 186.667% */
+    text-align: center;
+    width: 327px;
+    margin: 0 auto;
+}
+
+.info {
+    background: #004047;
+    padding-top: 88px;
+    padding-bottom: 112px;
+}
+
+.info-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.list-1 {
+    display: flex;
+    gap: 52px;
+    flex-direction: column;
+}
+
+.item {
+    background-color: #012F34;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 327px;
+    margin: 0 auto;
+
+}
+
+.list-img {
+    width: 96px;
+    height: 96px;
+}
+
+.list-plus {
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    position: relative;
+    top: 57px;
+}
+
+.list-title {
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    /* 155.556% */
+    margin-top: 16px;
+}
+
+.list-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+    /* 166.667% */
+}
+
+.logo {
+    background-color: #012F34;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.logo-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    margin-bottom: 52px;
+}
+
+.logo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 46px;
+}
+
+.Contact {
+    padding-top: 83px;
+    padding-bottom: 83px;
+    background-color: #F67E7E;
+}
+
+.c-title {
+    color: #012F34;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 100% */
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 9px 32px;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 155.556% */
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    width: 153px;
+    margin: 0 auto;
+    transition: 0.3s
+}
+
+.btn:hover {
+    background-color: #012F34;
+    transition: 0.3s;
+    color: #FFF;
+}
+
+.burger-btn:hover {
+    background-color: #FFF;
+    color: #012F34;
+    transition: 0.3s;
+}
+
+.site-footer {
+    background-color: #002529;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.f-img {
+    width: 95.968px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.f-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.f-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
+@Media only screen and (min-width:768px) {
+
+input{
+    display: none;
+}
+
+    .burger {
+        display: none;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .list-1 {
+
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+
+    .text {
+        width: 457px;
+    }
+
+    .item {
+        width: 357px;
+    }
+
+    .wrapper {
+        flex-direction: row;
+
+
+    }
+
+    .c-title {
+        width: 336px;
+    }
+
+    .btn {
+        height: 48px;
+    }
+
+    .f-wrapper {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .f-img {
+        margin: 0;
+    }
+
+    .site-footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .logo-list {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .logo-list img {
+        max-width: 103px;
+    }
+}
+
+@Media only screen and (min-width:1024px) {
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .text {
+        width: 730px;
+        text-align: start;
+    }
+
+    .item {
+        width: 357px;
+    }
+
+    .list-1 {
+        flex-direction: row;
+        display: flex;
+        margin: 0;
+        flex-wrap: none;
+        gap: 11px;
+    }
+
+    .info-title {
+        font-size: 48px;
+    }
+
+    .logo-title {
+        font-size: 48px;
+    }
+
+    .logo-list img {
+        max-width: 165px;
+    }
+
+    .c-title {
+        font-size: 48px;
+        width: 504px;
+    }
+
+    .nav-img {
+        width: 160px;
+        height: 40px;
+    }
+
+    .f-img {
+        width: 160px;
+        height: 40px;
+    }
+}
